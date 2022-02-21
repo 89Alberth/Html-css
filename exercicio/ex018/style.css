@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'western';
+    src: url(fonts/Western\ Bang\ Bang.otf) format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'retro grunge';
+    src: url(fonts/Retro\ Grunge\ West.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'western';
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'western';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em;
+}
+
+p{
+    font-family: 'retro grunge';
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    font-size: 1.5em;
+    text-indent: 20px;
+}
+
+main{
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgb(97, 80, 59);
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+
+body{
+    background-color: burlywood;
+}
+
+a{
+    color: black;
+}

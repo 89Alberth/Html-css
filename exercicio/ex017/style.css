@@ -1,0 +1,30 @@
+
+    @charset "UTF-8";
+
+    body{
+          height: 100%;  
+          font-family: fantasy;
+         
+          background-image: linear-gradient(to bottom , #FFA2E9 ,#E166BF, #E254B5);
+          background-attachment: fixed;
+          font-size: 1.3em;
+      }
+
+      main{
+          font-size: 1em;
+          margin: auto;
+          width: 800px;
+          background-color: white;
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.582);
+          padding: 10px;
+          
+      }
+      p{
+          text-align: justify;
+          
+      }
+
+      h1{
+          text-align: center;
+          
+      }

@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fasthand';
+    src: url(fontes/Fast\ Hand.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, white,  #de55d9);
+    
+}
+
+header > h1{
+    text-align: center;
+    color: #33fffa;
+    font-family: 'fasthand', sans-serif;
+    font-size: 5em;
+    padding-top: 60px;
+    text-shadow: 0px 0px 60px #812eac;
+    
+}
+
+header > p{
+    color: #4ceafd;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 0px 0px 60px #f8f8f8;
+}
+
+header{
+  background-image: url(imagens/header.jpg);
+  background-position: center;
+  max-width: 1920px;
+  min-width: 300px;
+  height: 420px;
+  
+}
+nav{
+    background-color: #000000;
+    padding: 10px;
+    
+}
+nav a{
+    
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+
+nav a:hover{
+    background-color: #bafefd;
+    border-radius: 5px;
+    color: black;
+}
+
+main{
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 0px 7px 7px;
+}
+main > h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px #00000073;
+    
+}
+
+main h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-image: linear-gradient(to right, white, #3e1597, white);
+    margin-top: 40px;
+    text-shadow: 2px 2px 5px black;
+    padding: 5px;
+}
+
+p#pps1{
+    
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    width: 380px;
+    margin-left: 37px;
+    text-align: justify;
+    text-indent: 20px;
+    padding-top: 50px;
+}
+
+p#pps2{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    width: 380px;
+    margin-left: 43px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    
+}
+
+p#pps3{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    width: 380px;
+    margin-left: 33px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+img#ps1{
+    
+    width: 380px;
+    height: 200px;
+    padding: 40px;
+    
+    
+}
+img#ps2{
+    
+    width: 320px;
+    height: 400px;
+    padding-left: 90px;
+    padding-top: 90px;
+}
+img#ps3{
+    
+    width: 380px;
+    height: 320px;
+    padding-left: 50px;
+    padding-top: 90px;
+    ;
+}
+
+footer{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+div.video > iframe{
+
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+div.video{
+    position: relative;
+    margin-bottom: 30px;
+    margin: 26px -10px 53px;
+    padding-bottom: 57.28%;
+    
+    
+}
+    
+
