@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    max-width: 550px;
+}
+
+.number{
+    text-align: right;
+}
+
+.position{
+    text-align: center;
+}
+
+.state{
+    color: blue;
+}
+
+.state:hover{
+    text-decoration: underline;
+}
+
