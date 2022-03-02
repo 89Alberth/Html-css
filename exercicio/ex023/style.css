@@ -5,9 +5,28 @@ h1{
     text-align: center;
 }
 
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rgb(179, 177, 177);
+
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    color: white;
+    background-color: black;
 }
 
 th, td{
